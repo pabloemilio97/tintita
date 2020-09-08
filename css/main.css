@@ -1558,6 +1558,26 @@ h1.intro-header::before {
   color: #FACBDA;
 }
 
+/* home social-list 2 */
+
+.home-social-list-2 {
+  display: none;
+}
+
+.home-social-list-2 li {
+  padding-left: 0;
+}
+
+.home-social-list-2 li a,
+.home-social-list-2 li a:visited {
+  color: #FFFFFF;
+}
+
+.home-social-list-2 li a:hover,
+.home-social-list-2 li a:focus,
+.home-social-list-2 li a:active {
+  color: #FFFFFF;
+}
 
 /* scroll down */
 
@@ -1814,6 +1834,21 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-social-list,
   .home-scrolldown {
     display: none;
+  }
+  .home-social-list-2 {
+    clear: both;
+    position: absolute;
+    padding-top: 350px;
+    list-style: none;
+    font-size: 2.2rem;
+    line-height: 1.75;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
   }
   .home-content-left {
     padding: 12rem 2.5rem 366px;
