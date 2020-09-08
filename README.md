@@ -1,2 +1,2 @@
 # tintita
-Landing page for tintita mx
+Landing page for tintita.com
