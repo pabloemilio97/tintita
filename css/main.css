@@ -1524,7 +1524,7 @@ h1.intro-header::before {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 2.2rem;
+  font-size: 5rem;
   line-height: 1.75;
   text-align: center;
   -webkit-transform: translateY(-55%);
@@ -1819,7 +1819,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     max-width: 280px;
   }
   .home-social-list {
-    font-size: 2rem;
+    font-size: 4rem;
     right: 30px;
   }
   .scroll-icon {
@@ -1922,7 +1922,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .about-how {
   padding-top: 7.2rem;
-  padding-bottom: 6rem;
 }
 
 .about-how h1.intro-header {
@@ -1940,7 +1939,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   position: relative;
   width: 100%;
   max-width: 1000px;
-  min-height: 300px;
   margin-top: 7.2rem;
   margin-left: auto;
   margin-right: auto;
@@ -1952,7 +1950,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   content: "";
   display: block;
   width: 1px;
-  height: 100%;
   background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 0;
@@ -1973,7 +1970,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .about-how-content .step {
   padding: 0 40px 1.5rem 60px;
   position: relative;
-  min-height: 240px;
 }
 
 .about-how-content .step h3 {
